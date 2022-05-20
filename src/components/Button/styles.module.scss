@@ -1,0 +1,30 @@
+.outline {
+    background: transparent;
+    border: 1px solid #FFE1E5;
+    color: #FFE1E5;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: 0.5s;
+
+    &:hover {
+        background: #FFE1E5;
+        color: #333333;
+    }
+}
+
+.filled {
+    background: #FFE1E5;
+    border: 1px solid #FFE1E5;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: 0.5s;
+
+    &:hover {
+        background: #7b7b7b;
+        color: #ffffff;
+        border-color: #7b7b7b;
+    }
+}
